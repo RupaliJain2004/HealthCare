@@ -69,6 +69,7 @@ form{
 .field input:focus{
     border-bottom-width: 2px;
 }
+
 .eye-icon{
     position: absolute;
     top: 50%;
