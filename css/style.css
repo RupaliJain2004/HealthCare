@@ -192,6 +192,16 @@ ul {
     left: 100%;
     z-index: 1;
 }
+.nav-cart i {
+    font-size: 20px;
+}
+.nav-cart{
+    font-size: 0.85;
+    font-weight: 700;
+    font-family: poppins;
+    font-weight: 500;
+    color: black;
+}
 
 /* ------------------ */
 .nav-appointment-btn {
