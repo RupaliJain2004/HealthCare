@@ -14,31 +14,25 @@
         <table class="cart-table">
             <thead>
                 <tr>
+                    <th>Image</th>
                     <th>Product</th>
                     <th>Price</th>
                     <th>Quantity</th>
-                    <th>Subtotal</th>
+                    <th>Total</th>
+                    <th>Remove</th>
                 </tr>
             </thead>
         </table>
-        <div class="coupon-section">
-            <!-- <label for="coupon-code">Coupon code:</label> -->
-            <input type="text" id="coupon-code" placeholder="Enter coupon code">
-            <button>Apply coupon</button>
-        </div>
-        <!-- <div class="cart-totals">
-          <button>Proceed to checkout</button>
-        </div> -->
     </div>
     <div class="cart-totals-box">
         <div class="cart-totals">
             <h2> Cart totals </h2>
-            <p>Subtotal: </p>
-            <p>Total: </p>
+            <p>Total: ₹ <span class="cart-total">0.00</span></p>
             <button>Proceed to checkout</button>
         </div>
     </div>
 
+    <script src="js/cart.js"></script>
 </body>
 
 </html>
